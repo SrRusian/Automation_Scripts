@@ -1,48 +1,49 @@
 # 🛠️ Automation Scripts
 
-Este repositorio contiene una colección de scripts en Bash diseñados para automatizar tareas simples en entornos Linux. Actualmente está enfocado en la **gestión de usuarios simulada**, **operaciones basicas** e **instalacion/configuracion personalizada de entorno**, utilizando archivos planos como base de datos. Son útiles como material de práctica, introducción a la automatización y referencia en entornos controlados.
+This repository contains a collection of Bash scripts designed to automate simple tasks in Linux environments. It is currently focused on **simulated user management**, **basic operations**, and **custom environment setup/configuration**, using plain text files as a database. These scripts are useful for practice, introductory automation learning, and as references in controlled environments.
 
-## 📁 Carpeta: `user-management/`
+## 📁 Folder: `user-management/`
 
-Scripts dedicados a la creación, verificación y eliminación de usuarios en un sistema simulado.
+Scripts dedicated to the creation, verification, and deletion of users in a simulated system.
 
-### Contenido:
+### Contents:
 
-| Script | Descripción |
-|--------|-------------|
-| `crearCuenta.sh` | Crea un nuevo usuario y lo registra en `usuarios.txt`. |
-| `eliminarCuenta.sh` | Elimina a un usuario existente del archivo de usuarios. |
-| `verificarUsuario.sh` | Verifica si un usuario está registrado. |
-| `usuarios.txt` | Archivo donde se almacenan los registros simulados de usuarios. |
+| Script                | Description                                            |
+| --------------------- | ------------------------------------------------------ |
+| `crearCuenta.sh`      | Creates a new user and registers it in `usuarios.txt`. |
+| `eliminarCuenta.sh`   | Removes an existing user from the user file.           |
+| `verificarUsuario.sh` | Checks if a user is registered.                        |
+| `usuarios.txt`        | File used to store simulated user records.             |
 
-## 📁 Carpeta: `tests/`
+## 📁 Folder: `tests/`
 
-Scripts dedicados a pruebas o practicas.
+Scripts dedicated to testing and practice.
 
-### Contenido:
+### Contents:
 
-| Script | Descripción |
-|--------|-------------|
-| `consecutivos.sh` | Genera o gestiona consecutivos únicos para nuevas cuentas. |
-| `operaciones.sh` | Script central para ejecutar las operaciones básicas del sistema. |
+| Script            | Description                                               |
+| ----------------- | --------------------------------------------------------- |
+| `consecutivos.sh` | Generates or manages unique identifiers for new accounts. |
+| `operaciones.sh`  | Central script to execute the system's basic operations.  |
 
-## 📁 Carpeta: `customKaliConfigurations/`
+## 📁 Folder: `customKaliConfigurations/`
 
-Scripts dedicados a la personalizacion del sistema Kali de forma automatizada.
+Scripts for automating the customization of the Kali system.
 
-### Contenido:
+### Contents:
 
-| Script | Descripción |
-|--------|-------------|
-| `customSetup.sh` | Ejecucion de configuraciones propias automatizadas para facilitar la reinstalacion del sistema. |
+| Script           | Description                                                                 |
+| ---------------- | --------------------------------------------------------------------------- |
+| `customSetup.sh` | Executes automated custom configurations to simplify system reinstallation. |
 
-> ⚠️ **Nota:** Estos scripts no alteran usuarios reales del sistema, son puramente educativos y operan sobre archivos `.txt`.
+> ⚠️ **Note:** These scripts do not modify real system users — they are purely educational and operate on `.txt` files only.
 
 ---
 
-## 🚀 Uso
+## 🚀 Usage
 
-1. Clona el repositorio:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/SrRusian/Automation_Scripts.git
+```
